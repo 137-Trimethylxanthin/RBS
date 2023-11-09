@@ -3,3 +3,9 @@
     export const ssr = false
 </script>
 
+
+
+<main>
+    <!-- +page.svelte is rendered in this <slot> -->
+    <slot />
+</main>
